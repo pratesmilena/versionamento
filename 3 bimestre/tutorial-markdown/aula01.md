@@ -70,7 +70,7 @@ Para projetos de aulas também podem ser utilizados nomes como;
 
 # 3.Título e subtítulos
 ### Markdown utiliza o caractere # para criar título 
-```Markdown
+```markdown
 # Título principal
 ## Título nível 2
 ### Título nível 3
@@ -98,6 +98,15 @@ Para projetos de aulas também podem ser utilizados nomes como;
 ## Conclusão
 ```
 # Semana 08 - Introdução ao Git
+```markdown
+## Objetivos da aula
+## Conceitos aprendidos
+### Repositório
+### Commit
+### Branch
+### Atividade Prática
+## Conclusão
+```
 ## Objetivos da aula
 ## Conceitos aprendidos
 ### Repositório
@@ -107,7 +116,7 @@ Para projetos de aulas também podem ser utilizados nomes como;
 ## Conclusão
 
 # Evite pular níveis sem necessidade como;
-```Markdown
+```markdown
     # Título
 
     ### Subtítulo
@@ -130,7 +139,7 @@ Utlize 2 asteriscos: **texto em negrito**
 
 # 7. Negrito e Italico 
 
-```Markdown
+```markdown
 
 ### ***Texto em negrito e em italico***
 ### ***Git add***
