@@ -9,14 +9,15 @@
 - Registros de aulas
 - ISSUES e Pull Requets
 #### **A extenção do arquivo Markdown é ".md"**
+
 ---
 # 1. O que é Markdown?
-Markdown permite aplicar formatação simples em um texto usando caracteres simples;
+### Markdown permite aplicar formatação simples em um texto usando caracteres simples;
 
 Exemplo: 
 # Meu projeto
 
-Este projeto foi desenvolvido durante a aula de **Versionamento de código**
+#### Este projeto foi desenvolvido durante a aula de **Versionamento de código**
 
 ## Tecnologias 
     - Git
@@ -41,7 +42,7 @@ Para projetos de aulas também podem ser utilizados nomes como;
     - semana-02.md
 
     - aula-01.md
----
+
 # Boas práticas 
 ## Prefira nomes:
 - curtos
@@ -69,51 +70,72 @@ Para projetos de aulas também podem ser utilizados nomes como;
 
 # 3.Título e subtítulos
 ### Markdown utiliza o caractere # para criar título 
-
-    # Título principal
-    ## Título nível 2
-    ### Título nível 3
-    #### Título nível 4
-    ##### Título nível 5
-
+```Markdown
+# Título principal
+## Título nível 2
+### Título nível 3
+#### Título nível 4
+##### Título nível 5
+```
+# Título principal
+## Título nível 2
+### Título nível 3
+#### Título nível 4
+##### Título nível 5
 
 # Boa Prática 
 
 ### Utilize uma estrutura hierarquica 
 ### Exemplo:
-
-    # Semana 08 - Introdução ao Git
-    ## Objetivos da aula
-    ## Conceitos aprendidos
-    ### Repositório
-    ### Commit
-    ### Branch
-    ### Atividade Prática
-    ## Conclusão
+```markdown
+# Semana 08 - Introdução ao Git
+## Objetivos da aula
+## Conceitos aprendidos
+### Repositório
+### Commit
+### Branch
+### Atividade Prática
+## Conclusão
+```
+# Semana 08 - Introdução ao Git
+## Objetivos da aula
+## Conceitos aprendidos
+### Repositório
+### Commit
+### Branch
+### Atividade Prática
+## Conclusão
 
 # Evite pular níveis sem necessidade como;
-
+```Markdown
     # Título
 
     ### Subtítulo
- 
+```
 # 4. Parágrafos
- ### Para criar um parágrafo, deixe uma linha em branco entre os textos.
- ### Git é um sistema de controle distribuído.
- ### Ele permite registrar e acompanhar alterações realizadas nos arquivos de um projeto.
+```markdown
+### Para criar um parágrafo, deixe uma linha em branco entre os textos.
+```
 
+Git é um sistema de controle distribuído.
+Ele permite registrar e acompanhar alterações realizadas nos arquivos de um projeto.
  # 5. Negrito
- ### Utlize 2 asteriscos: **texto em negrito**
-  ### O git **Git** é um sistema de controle de versão.
+Utlize 2 asteriscos: **texto em negrito**
+
+ O git **Git** é um sistema de controle de versão.
 
 # 6. Italico
 ### Utilize 1 asterisco: *Texto em italico*
-### O comando é *git status* permite verificar o estado do repositório.
-
-Entretanto para representar comandos, o ideal é utilizar a formatação do código a seguir.
+### O comando é *git status* permite verificar o estado do repositório. Entretanto para representar comandos, o ideal é utilizar a formatação do código a seguir.
 
 # 7. Negrito e Italico 
 
+```Markdown
+
+### ***Texto em negrito e em italico***
+### ***Git add***
+
+```
 ### ***Texto em negrito e em italico***
 ### ***Git add***
 
@@ -156,6 +178,7 @@ O GitHub permite criar caixas de seleção
 - [ ] Realiza a atividade 
 - [ ] Criar o commit 
 - [ ] Enviar para o GitHub
+
 Esse recurso é especialmente útil para acompanhar atividades e projetos.
 
 
